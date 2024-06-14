@@ -1,0 +1,95 @@
+#nameInput {
+    width: 50vw;
+    text-align: center;
+    background-color: #390047;
+    color: #FFF;
+}
+
+#nameInputDiv {
+    display: block;
+}
+
+#oTwo, #dTwo {
+    display: none;
+}
+
+/* Feel free to change any of the styling below!*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body with a background color or image if desired */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right,seagreen, lightblue);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* Style the title of your story */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the buttons container */
+.buttons {
+    margin: 20px;
+}
+
+/* Style the option buttons */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #003b08;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #265e36;
+}
+
+/* Style the screens for option one and option two */
+.background {
+    background-color: #052c80;
+    border: 1px solid #260046;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    display: none;
+}
+
+/* Style the images in the screens */
+.background img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the text in the screens */
+.background h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.background p {
+    color:rgb(0, 255, 213);
+}
+
+#defenseImg {
+    width: 50%;
+}

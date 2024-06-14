@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your Own Robotics Adventure</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="background" id="nameInputDiv">
+        <input type="text" id="nameInput" placeholder="Type your name and press enter to move on.">
+    </div>
+    <div class="background" id="option">
+        <p id="question"></p>
+        <div id="offenseSelector">
+            <button id="offenseButton">Play Offense</button>
+        </div>
+        <div id="defenseSelector">
+            <button id="defenseButton">Play Defense</button>
+        </div>
+    </div>
+    <div class="background" id="offense">
+        <div id="oOne">
+            <p>
+                Press space to shoot.
+            </p>
+            <video width="400">
+                <source src="botShooting.MOV">
+                Video of 234 season 2024 robot shooting a note in autonomous.
+            </video>
+        </div>
+        <div id="oTwo">
+            <p>
+                You won!
+            </p>
+            <img src="win.png" alt="Image of 234 team members celebrating after winning Washington District event.">
+        </div>
+    </div>
+    <div class="background" id="defense">
+        <div id="dOne">
+            <p>Click to defend</p>
+            <img src="defense.webp" id="defenseImg" alt="Image of a defense bot.">
+        </div>
+        <div id="dTwo">
+            <p>
+                You lost. Defense doesn't win championships :(
+            </p>
+        </div>
+    </div>
+</body>
+</html>
